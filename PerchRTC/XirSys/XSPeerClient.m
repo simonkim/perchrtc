@@ -191,7 +191,7 @@ static NSTimeInterval kXSPeerClientKeepaliveInterval = 20.0;
 
 - (void)sendPing
 {
-    [self.negotiationSocket sendPing:nil];
+    [self.negotiationSocket sendPing:nil error:nil];
 }
 
 - (void)applicationWillEnterForeground

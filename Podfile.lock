@@ -1,12 +1,15 @@
 PODS:
-  - AFNetworking/Reachability (2.5.0)
-  - CocoaLumberjack (1.9.1):
-    - CocoaLumberjack/Extensions (= 1.9.1)
-  - CocoaLumberjack/Core (1.9.1)
-  - CocoaLumberjack/Extensions (1.9.1):
+  - AFNetworking/Reachability (3.1.0)
+  - CocoaLumberjack (3.0.0):
+    - CocoaLumberjack/Default (= 3.0.0)
+    - CocoaLumberjack/Extensions (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
     - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
   - nighthawk-webrtc (45)
-  - SocketRocket (0.3.1-beta2)
+  - SocketRocket (0.5.1)
   - XirSys (0.4)
 
 DEPENDENCIES:
@@ -18,7 +21,7 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   nighthawk-webrtc:
-    :podspec: "./nighthawk-webrtc-chrome-m45-capture-xcode.podspec"
+    :podspec: ./nighthawk-webrtc-chrome-m45-capture-xcode.podspec
   SocketRocket:
     :git: https://github.com/square/SocketRocket.git
   XirSys:
@@ -27,17 +30,19 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SocketRocket:
-    :commit: d1e796c05a8b6dfa662a7cf3cfdce17d0d88c618
+    :commit: 41b57bb2fc292a814f758441a05243eb38457027
     :git: https://github.com/square/SocketRocket.git
   XirSys:
     :git: https://github.com/samsymons/XirSys.git
     :tag: '0.4'
 
 SPEC CHECKSUMS:
-  AFNetworking: 96ac9bf3eda33582701cb1fcc5b896aa1e20311e
-  CocoaLumberjack: e9b828e64142be63c1c130517b33aa5e235d2413
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
   nighthawk-webrtc: 5f680d8a1b9a5280a4b9cb7c4f5d75ff4130a4a2
-  SocketRocket: 70df1983148525857ced17c57207bfb939bc6b8e
+  SocketRocket: dbb1554b8fc288ef8ef370d6285aeca7361be31e
   XirSys: 0ea604c4b995f7005ba07a6ffd40675a93430b5d
 
-COCOAPODS: 0.37.2
+PODFILE CHECKSUM: cb0b406150c05bb2af407f1487eaad76db4d43a3
+
+COCOAPODS: 1.0.1

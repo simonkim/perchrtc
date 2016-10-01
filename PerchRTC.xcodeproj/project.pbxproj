@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2916E06E3C614C1597B69AED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F40CBFAC184F4D4990076EE3 /* libPods.a */; };
+		2A8E71BF0DEB3630D4F74482 /* libPods-basepods-PerchRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E24B9DE335AED7DE6E93CDD /* libPods-basepods-PerchRTC.a */; };
 		4BCFC5BF1A5215A800DFC4B8 /* PHErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCFC5BE1A5215A800DFC4B8 /* PHErrors.m */; };
 		4BCFC5C11A53141D00DFC4B8 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BCFC5C01A53141D00DFC4B8 /* Launch Screen.xib */; };
-		5867C65B86B9E19C4837AA93 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F40CBFAC184F4D4990076EE3 /* libPods.a */; };
+		B04178D0B7C5965DEE19C847 /* libPods-basepods-PerchRTCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD81A6DA4424917DAF45781 /* libPods-basepods-PerchRTCTests.a */; };
 		BF0206BB1AFC376A00C8160E /* PHSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0206BA1AFC376A00C8160E /* PHSettingsViewController.m */; };
 		BF021E601A4E84B1007E8F11 /* RTCMediaStream+PHStreamConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = BF021E5F1A4E84B1007E8F11 /* RTCMediaStream+PHStreamConfiguration.m */; };
 		BF021E631A4E84CD007E8F11 /* PHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF021E621A4E84CD007E8F11 /* PHViewController.m */; };
@@ -65,11 +65,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09B2429C8CDF70715B44E8A1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		0759936E69BEBC7C928500C9 /* Pods-basepods-PerchRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basepods-PerchRTC.release.xcconfig"; path = "Pods/Target Support Files/Pods-basepods-PerchRTC/Pods-basepods-PerchRTC.release.xcconfig"; sourceTree = "<group>"; };
+		298A0E9487F98C4B3D102A93 /* Pods-basepods-PerchRTCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basepods-PerchRTCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-basepods-PerchRTCTests/Pods-basepods-PerchRTCTests.release.xcconfig"; sourceTree = "<group>"; };
+		2DD81A6DA4424917DAF45781 /* libPods-basepods-PerchRTCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-basepods-PerchRTCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4874EDEF9D10EE58E4B767 /* Pods-basepods-PerchRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basepods-PerchRTC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-basepods-PerchRTC/Pods-basepods-PerchRTC.debug.xcconfig"; sourceTree = "<group>"; };
 		4BCFC5BD1A5215A800DFC4B8 /* PHErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHErrors.h; sourceTree = "<group>"; };
 		4BCFC5BE1A5215A800DFC4B8 /* PHErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHErrors.m; sourceTree = "<group>"; };
 		4BCFC5C01A53141D00DFC4B8 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "../Launch Screen.xib"; sourceTree = "<group>"; };
 		4BD55A4D1AFD58F800CDD370 /* PHCredentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHCredentials.h; sourceTree = "<group>"; };
+		6E24B9DE335AED7DE6E93CDD /* libPods-basepods-PerchRTC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-basepods-PerchRTC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A764B697621F171350E17C /* Pods-basepods-PerchRTCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basepods-PerchRTCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-basepods-PerchRTCTests/Pods-basepods-PerchRTCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BF0206B91AFC376A00C8160E /* PHSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHSettingsViewController.h; sourceTree = "<group>"; };
 		BF0206BA1AFC376A00C8160E /* PHSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHSettingsViewController.m; sourceTree = "<group>"; };
 		BF0206BC1AFC41D000C8160E /* PHMediaConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHMediaConfiguration.h; sourceTree = "<group>"; };
@@ -151,8 +156,6 @@
 		BFF2532A1A41514C007DBE23 /* PHMediaSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHMediaSession.m; sourceTree = "<group>"; };
 		BFF8F590199616D50065A555 /* PHConnectionBroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHConnectionBroker.h; sourceTree = "<group>"; };
 		BFF8F591199616D50065A555 /* PHConnectionBroker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHConnectionBroker.m; sourceTree = "<group>"; };
-		D1966AF91CC45DE3E96E08E6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		F40CBFAC184F4D4990076EE3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +165,7 @@
 			files = (
 				BF80C59019960F54007DE967 /* UIKit.framework in Frameworks */,
 				BF80C58C19960F54007DE967 /* Foundation.framework in Frameworks */,
-				2916E06E3C614C1597B69AED /* libPods.a in Frameworks */,
+				2A8E71BF0DEB3630D4F74482 /* libPods-basepods-PerchRTC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,18 +176,20 @@
 				BF80C5A519960F54007DE967 /* XCTest.framework in Frameworks */,
 				BF80C5A719960F54007DE967 /* UIKit.framework in Frameworks */,
 				BF80C5A619960F54007DE967 /* Foundation.framework in Frameworks */,
-				5867C65B86B9E19C4837AA93 /* libPods.a in Frameworks */,
+				B04178D0B7C5965DEE19C847 /* libPods-basepods-PerchRTCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		840D2FA228A22D5F61C9712A /* Pods */ = {
+		18BD2ADF98DE6F4693794EB5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				09B2429C8CDF70715B44E8A1 /* Pods.debug.xcconfig */,
-				D1966AF91CC45DE3E96E08E6 /* Pods.release.xcconfig */,
+				3C4874EDEF9D10EE58E4B767 /* Pods-basepods-PerchRTC.debug.xcconfig */,
+				0759936E69BEBC7C928500C9 /* Pods-basepods-PerchRTC.release.xcconfig */,
+				A9A764B697621F171350E17C /* Pods-basepods-PerchRTCTests.debug.xcconfig */,
+				298A0E9487F98C4B3D102A93 /* Pods-basepods-PerchRTCTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -267,7 +272,7 @@
 				BF80C5AA19960F54007DE967 /* PerchRTCTests */,
 				BF80C58A19960F54007DE967 /* Frameworks */,
 				BF80C58919960F54007DE967 /* Products */,
-				840D2FA228A22D5F61C9712A /* Pods */,
+				18BD2ADF98DE6F4693794EB5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -289,7 +294,8 @@
 				BF80C58D19960F54007DE967 /* CoreGraphics.framework */,
 				BF80C58F19960F54007DE967 /* UIKit.framework */,
 				BF80C5A419960F54007DE967 /* XCTest.framework */,
-				F40CBFAC184F4D4990076EE3 /* libPods.a */,
+				6E24B9DE335AED7DE6E93CDD /* libPods-basepods-PerchRTC.a */,
+				2DD81A6DA4424917DAF45781 /* libPods-basepods-PerchRTCTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -394,11 +400,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF80C5B419960F54007DE967 /* Build configuration list for PBXNativeTarget "PerchRTC" */;
 			buildPhases = (
-				A6092AB93C7841EDAE9DACAF /* Check Pods Manifest.lock */,
+				3C99B59B0C8C0E64B4CF0404 /* [CP] Check Pods Manifest.lock */,
 				BF80C58419960F54007DE967 /* Sources */,
 				BF80C58519960F54007DE967 /* Frameworks */,
 				BF80C58619960F54007DE967 /* Resources */,
-				D92CDBAFF7344EEFB797CFB8 /* Copy Pods Resources */,
+				50038757A5C5341C395B6FBF /* [CP] Embed Pods Frameworks */,
+				593F1C42BCFA56345148380C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -413,11 +420,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF80C5B719960F54007DE967 /* Build configuration list for PBXNativeTarget "PerchRTCTests" */;
 			buildPhases = (
-				6E725E19A758D470FC68ED1A /* Check Pods Manifest.lock */,
+				43A6EFFA2A3645AA80E8448F /* [CP] Check Pods Manifest.lock */,
 				BF80C59F19960F54007DE967 /* Sources */,
 				BF80C5A019960F54007DE967 /* Frameworks */,
 				BF80C5A119960F54007DE967 /* Resources */,
-				2F5FCC8836D6640A9C6088AB /* Copy Pods Resources */,
+				8CC91DEE387564D1B0E05AFA /* [CP] Embed Pods Frameworks */,
+				9C2DAF34EED56187B5B2F7B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -479,29 +487,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2F5FCC8836D6640A9C6088AB /* Copy Pods Resources */ = {
+		3C99B59B0C8C0E64B4CF0404 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6E725E19A758D470FC68ED1A /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,14 +502,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A6092AB93C7841EDAE9DACAF /* Check Pods Manifest.lock */ = {
+		43A6EFFA2A3645AA80E8448F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,19 +517,64 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		D92CDBAFF7344EEFB797CFB8 /* Copy Pods Resources */ = {
+		50038757A5C5341C395B6FBF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-basepods-PerchRTC/Pods-basepods-PerchRTC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		593F1C42BCFA56345148380C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-basepods-PerchRTC/Pods-basepods-PerchRTC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CC91DEE387564D1B0E05AFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-basepods-PerchRTCTests/Pods-basepods-PerchRTCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C2DAF34EED56187B5B2F7B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-basepods-PerchRTCTests/Pods-basepods-PerchRTCTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -657,7 +695,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -696,7 +734,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -706,7 +744,7 @@
 		};
 		BF80C5B519960F54007DE967 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09B2429C8CDF70715B44E8A1 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 3C4874EDEF9D10EE58E4B767 /* Pods-basepods-PerchRTC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -724,6 +762,7 @@
 					"$(OTHER_CFLAGS)",
 					"-frtti",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.perch.sample.PerchRTC-Dev";
 				PRODUCT_NAME = "PerchRTC-Dev";
 				WRAPPER_EXTENSION = app;
 			};
@@ -731,7 +770,7 @@
 		};
 		BF80C5B619960F54007DE967 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1966AF91CC45DE3E96E08E6 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 0759936E69BEBC7C928500C9 /* Pods-basepods-PerchRTC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -749,6 +788,7 @@
 					"$(OTHER_CFLAGS)",
 					"-frtti",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.perch.sample.PerchRTC-Dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -756,7 +796,7 @@
 		};
 		BF80C5B819960F54007DE967 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09B2429C8CDF70715B44E8A1 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = A9A764B697621F171350E17C /* Pods-basepods-PerchRTCTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -777,7 +817,7 @@
 		};
 		BF80C5B919960F54007DE967 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1966AF91CC45DE3E96E08E6 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 298A0E9487F98C4B3D102A93 /* Pods-basepods-PerchRTCTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
